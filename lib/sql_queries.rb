@@ -47,7 +47,7 @@ def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_ca
  WHERE projects.category = 'music';
  "
 end
-
+#選擇類別名稱及其書籍類別的所有承諾的總和
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
-"Write your SQL query Here"
+"SELECT projects.category, "
 end
